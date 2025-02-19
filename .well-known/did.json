@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/jwk/v1"
+  ],
+  "id": "did:web:example.org",
+  "verificationMethod": [
+    {
+      "id": "did:web:aerospace-y:github.io:compliance#JWK-RSA",
+      "type": "JsonWebKey",
+      "controller": "did:web:aerospace-y:github.io:compliance",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "n": "0oxjNiK1D5lcowRFjpzY8AY8DwkH5I4mXnz9f4ILcFIV8HG3EyWnAkYgf5EJO91P7t4NHESxuNvSXSSYe5UBizWXNfmKClX2l3g0-6Iw0amxtdgrAmX-HxOprdxfBMt1xRwf6B4M9CQzGBIDAMW5B8-zJsbnGPIz0iWJ2qdFvtPtD3He3ds7azrcLmEaQLqg2yw7Fw5xwmSRodYasXIOhk1Wg4lqiJp2bG9JBaWdJW7Q2kee39UxnAXCQKmflkQuPAALxj5C-5436n0--64Xd6JH6QeaKgyQPGLEEVwvNibiZD8PcbXqyCDCNBD7DmTOTLfjz03qH5qjYvpuo5K6Aw",
+        "e": "AQAB",
+        "kid": "q44a8UEJIUNs43nWyLSCxNQXQRB40ccilgRqsZ7n0Og",
+        "alg": "PS256",
+        "x5u": "https://aerospace-y.github.io/compliance/.well-known/chain.pem"
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:aerospace-y:github.io#JWK-RSA"
+  ],
+  "assertionMethod": [
+    "did:web:aerospace-y:github.io#JWK-RSA"
+  ]
+}
